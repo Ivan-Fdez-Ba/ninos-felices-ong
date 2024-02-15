@@ -1,0 +1,118 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>hazte-socio</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <header>
+    <a href="index.html"> <img id="logo-header" src="images/logo.png" alt="logo"></a>
+    <a id="boton-header" href="hazte-socio.html">HAZTE SOCIO</a>
+  </header>
+  <nav id="nav-header">
+    <ul id="ul-header">
+      <li class="li-a-nav-header"><a class="li-a-nav-header nav-header-hover" href="quienes-somos.html">QUIENES SOMOS</a></li>
+      <li class="li-a-nav-header"><a class="li-a-nav-header nav-header-hover" href="que-hacemos.html">QUÉ HACEMOS</a></li>
+      <li class="li-a-nav-header"><a class="li-a-nav-header nav-header-hover" href="donaciones.html">HAZ UNA DONACION</a></li>
+      <li class="li-a-nav-header"><a class="li-a-nav-header nav-header-hover" href="contacto.html">CONTACTO</a></li>
+    </ul>
+  </nav>
+
+  <main id="main-socio">
+    <h1 id="h1-socio">Hazte socio</h1>
+    <p id="p-socio">Frase motivadora Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    <form>
+        <label for="nom">Nom:</label>
+        <br>
+        <input type="text" id="nom" name="nom" placeholder="ex. Alex" required>
+
+
+        <label for="tractament">Tractament:</label>
+        <br>
+        <select name="tractament" id="tractament" required>
+            <option value="SR">SR.</option>
+            <option value="SRA">SRA</option>
+            <option value="SRE">SRE</option>
+        </select>
+
+        <br>
+
+        <label for="cognom">Cognom:</label>
+        <br>
+        <input type="text" id="cognom" name="nom" placeholder="ex. García" required>
+
+        <br>
+
+        <label for="email">Correu electrònic:</label>
+        <br>
+        <input type="email" id="email" name="email" placeholder="exemple@exemple.cat" required>
+        
+        <br>
+
+        <label for="cp">Código Postal:</label>
+        <input type="number" id="cp" name="cp" required>
+
+
+        <fieldset>
+            <legend>Temas interesantes:</legend>
+            
+            <label for="TEMA1">
+                <input type="checkbox" id="TEMA1" name="temas" value="TEMA1">
+                TEMA1
+            </label>
+            <label for="TEMA2">
+                <input type="checkbox" id="TEMA2" name="temas" value="TEMA2">
+                TEMA2
+            </label>
+            <label for="TEMA3">
+                <input type="checkbox" id="TEMA3" name="temas" value="TEMA3">
+                TEMA3
+            </label>
+            <br>
+            <label for="TEMA4">
+                <input type="checkbox" id="TEMA4" name="temas" value="TEMA4">
+                TEMA4
+            </label>
+            <label for="TEMA5">            
+                <input type="checkbox" id="TEMA5" name="temas" value="TEMA5">
+                TEMA5
+            </label>
+            <label for="TEMA6">            
+                <input type="checkbox" id="TEMA6" name="temas" value="TEMA6">
+                TEMA6
+            </label>
+        </fieldset>
+        <br>
+        <br>
+        <input type="radio" name="accepto" required>
+        <label for="accepto">Accepto</label>
+        <label for="newsletters">            
+            <input type="checkbox" id="newsletters" name="newsletters" value="newsletters">
+            Newsletters
+        </label>
+        <br>
+        <input type="submit" name="envia">
+   </form> 
+  </main>
+
+  <footer>
+    <figure>
+      <img id="logo-footer" src="images/logo.png" alt="logo">
+      <figcaption>©2023 by mi ong</figcaption>
+    </figure>
+    <nav id="nav-footer">
+      <ul id="ul-footer">
+        <li class="li-a-nav-footer"><a class="li-a-nav-footer nav-footer-hover" href="quienes-somos.html">QUIENES SOMOS</a></li>
+        <li class="li-a-nav-footer"><a class="li-a-nav-footer nav-footer-hover" href="que-hacemos.html">QUÉ HACEMOS</a></li>
+        <li class="li-a-nav-footer"><a class="li-a-nav-footer nav-footer-hover" href="donaciones.html">HAZ UNA DONACION</a></li>
+        <li class="li-a-nav-footer"><a class="li-a-nav-footer nav-footer-hover" href="contacto.html">CONTACTO</a></li>
+      </ul>
+    </nav>
+    <ul id="ul-rrss">
+      <li class="li-rrss"><a href="https://www.youtube.com"><img src="images/youtube.svg" alt="red-social"></a></li>
+      <li class="li-rrss"><a href="https://www.instagram.com"><img src="images/instagram.svg" alt="red-social"></a></li>
+      <li class="li-rrss"><a href="https://twitter.com"><img src="images/twitter.svg" alt="red-social"></a></li>
+    </ul>
+  </footer>
+</body>
+</html>
