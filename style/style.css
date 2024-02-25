@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background-color: #efe5da;
     color: #2a2839;
@@ -14,6 +15,8 @@ h2{
     font-size: 45px;
 }
 
+=======
+>>>>>>> 9a80d3edc06233bb6785f6466a2c5f302eac33f9
 /* -------------------------------------- */
 /* ------------ HEADER FOOTER ----------- */
 /* -------------------------------------- */
@@ -21,6 +24,7 @@ h2{
 /* --------------- HEADER --------------- */
 
 header{
+<<<<<<< HEAD
     height: 70px;
 
     display: flex;
@@ -78,12 +82,83 @@ header{
     font-size: 20px;
     text-decoration: none;
     transition-duration: 0.4s;
+=======
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+
+#logo-header{
+    display: block;
+    overflow-clip-margin: content-box;
+    width: auto;
+    height: 70px;
+}
+
+#boton-header{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    background-color: #cde2df; 
+    color: #2a2839; 
+    border-radius: 15px;
+>>>>>>> 9a80d3edc06233bb6785f6466a2c5f302eac33f9
 }
 
 #boton-header:hover{
     color: white;
 }
 
+<<<<<<< HEAD
+=======
+#nav-header{
+    height: 75px;
+    width: 100%;
+    position: sticky;    
+    position: -webkit-sticky; /* Safari */
+    text-align: center;
+    margin: 0 auto;
+    top: 0;
+    background-color: #8c8484;
+    z-index: 1000;
+}
+
+#ul-header{
+    list-style-type: none;
+    padding: 0;
+    position: sticky;
+    position: -webkit-sticky; /* Safari */
+    top: 0;
+    display: flex;
+    margin: 0 auto;
+    width: 45%;
+}
+
+.li-a-nav-header{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    transition: width 0.3s ease, left 0.3s ease;
+    margin: 0 auto;
+}
+
+.nav-header-hover:hover{
+    border-bottom: white solid 2px;
+}
+.nav-header-hover:active{
+    border-bottom: white solid 2px;
+}
+
+>>>>>>> 9a80d3edc06233bb6785f6466a2c5f302eac33f9
 /* -------------------------------------- */
 
 
@@ -91,6 +166,7 @@ header{
 
 footer{
     width: 100%;
+<<<<<<< HEAD
     
     align-items: center;
     display: flex;
@@ -165,6 +241,61 @@ footer{
 
 #twitter-footer:hover{
     background-image: url("/images/twitter-negro.svg");
+=======
+    background-color: #8c8484;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#logo-footer{
+    display: block;
+    width: auto;
+    height: 70px;
+}
+
+#nav-footer{
+    height: 75px;
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#ul-footer{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    width: 45%;
+}
+
+.li-a-nav-footer{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: width 0.3s ease, left 0.3s ease;
+    margin: 0 auto;
+}
+
+.nav-footer-hover:hover{
+    font-weight: bold;
+}
+
+#ul-rrss{
+    display: flex;
+}
+
+.li-rrss{
+    display: block;
+    text-decoration: none;
+    margin: 20px;
+>>>>>>> 9a80d3edc06233bb6785f6466a2c5f302eac33f9
 }
 
 /* -------------------------------------- */
@@ -178,6 +309,7 @@ footer{
 
 #contenedor-principal{
     width: 100%;
+<<<<<<< HEAD
     
     display: inline-block;
     position: relative;
@@ -201,10 +333,30 @@ footer{
 .texto-imagen-principal{
     position: absolute;
     left: 50px;
+=======
+    position: relative;
+    display: inline-block;
+}
+
+#imagen-principal{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+#titulo-principal{
+    position: absolute;
+    top: 70%;
+    left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+>>>>>>> 9a80d3edc06233bb6785f6466a2c5f302eac33f9
     color: white;
     text-shadow: 1px 1px 2px black;
 }
 
+<<<<<<< HEAD
 #contenedor-principal a{
     margin: 10px;
     padding: 10px;
@@ -220,6 +372,36 @@ footer{
 }
 
 #contenedor-principal a:hover{
+=======
+#p-principal{
+    position: absolute;
+    top: 77%;
+    left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+#boton-foto-principal{
+    position: absolute;
+    top: 85%;
+    left: 40px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 40px;
+    transition-duration: 0.4s;
+    background-color: rgba(140, 132, 132, .5); 
+    color: white; 
+    border-radius: 20px;
+}
+
+#boton-foto-principal:hover{
+>>>>>>> 9a80d3edc06233bb6785f6466a2c5f302eac33f9
     background-color: #8C8484;
 }
 
@@ -227,6 +409,7 @@ footer{
 
 /* ------------- TARJETITAS ------------- */
 
+<<<<<<< HEAD
 .contenedor-tarjetitas{
     align-items: center;
     display: flex;
@@ -299,12 +482,94 @@ footer{
 
 /* -------------------------------------- */
 
+=======
+#contenedor-tarjetitas{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tarjetita{
+   background-color: #cde2df ;
+   width: 500px;
+   height: 900px;
+   text-align: center;
+   margin: 5px;
+   border-radius: 20px;
+}
+
+.t-pequena{
+    width: 450px;
+    height: 800px;
+}
+
+.foto-tarjetita{
+    width: 450px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.f-pequena{
+    width: 400px;
+    height: 250px;
+}
+
+.titulo-tarjetita{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: #2a2839;
+}
+
+.h-pequena{
+    font-size: 45px;
+}
+
+.parrafo-tarjetita{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    text-align:justify;
+    padding: 27px;
+    color: #2a2839;
+}
+
+.p-pequena{
+    font-size: 20px;
+}
+
+.boton-tarjetita{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 40px;
+    transition-duration: 0.4s;
+    background-color: #2a2839; 
+    color: #cde2df;
+    border-radius: 20px;
+
+}
+
+.boton-tarjetita:hover{
+    color: white;
+}
+
+.b-pequena{
+    font-size: 40px;
+}
+
+/* -------------------------------------- */
+
+
+>>>>>>> 9a80d3edc06233bb6785f6466a2c5f302eac33f9
 /* -------------- NOSOTROS -------------- */
 
 #contenedor-nosotros{
     text-align: center;
 }
 
+<<<<<<< HEAD
 #contenedor-nosotros h2{
     font-size: 50px;
     margin-top: 100px;
@@ -580,11 +845,77 @@ footer{
 
 /* -------------------------------------- */
 
+=======
+#contenedor-cajas-nosotros{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#h-nosotros{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: #2a2839;
+    margin-block: 100px;
+}
+
+.caja-nosotros{
+    border-radius: 20px;
+    background-color: #cde2df;
+    width: 500px;
+    height: 850px;
+    text-align: center;
+    margin: 5px;
+}
+
+.foto-caja-nosotors{
+    width: 450px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.titulo-caja-nosotros{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: #2a2839;
+}
+
+.parrafo-caja-nosotros{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    text-align:justify;
+    padding: 27px;
+    color: #2a2839;
+}
+
+.boton-caja-nosotros{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 40px;
+    transition-duration: 0.4s;
+    background-color: #2a2839; 
+    color: #cde2df; 
+    border-radius: 20px;
+}
+
+.boton-caja-nosotros:hover{
+    color: white;
+}
+
+/* -------------------------------------- */
+
+
+>>>>>>> 9a80d3edc06233bb6785f6466a2c5f302eac33f9
 /* -------------------------------------- */
 /* -------------- CONTACTO -------------- */
 /* -------------------------------------- */
 
 #section-contacto{
+<<<<<<< HEAD
     margin-top: 100px;
     text-align: center;
 }
@@ -624,10 +955,74 @@ footer{
 #section-contacto p{
     font-size: 20px;
     margin: 0;
+=======
+    text-align: center;
+}
+
+#h1-contacto{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: lighter;
+    color: #2a2839;
+
+}
+
+#h2-contacto{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #2a2839;
+
+}
+
+#p-direccion{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    color: #2a2839;
+
+}
+
+#p-codigo-postal{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #2a2839;
+
+}
+
+#a-telefono{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #2a2839;
+    text-decoration: none;
+
+}
+
+#a-mail{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #2a2839;
+    text-decoration: none;
+}
+
+#ul-rrss-contacto{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+}
+
+.li-rrss-contacto{
+    display: block;
+    padding: 20px;
+>>>>>>> 9a80d3edc06233bb6785f6466a2c5f302eac33f9
 }
 
 /* -------------------------------------- */
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9a80d3edc06233bb6785f6466a2c5f302eac33f9
 /* -------------------------------------- */
 /* ------------ HAZTE SOCIO ------------- */
 /* -------------------------------------- */
@@ -639,6 +1034,7 @@ footer{
     align-items: center;
 }
 
+<<<<<<< HEAD
 #main-socio p{
     font-size: 23px;
 }
@@ -694,3 +1090,317 @@ footer{
     justify-content: center;
 }
 /* -------------------------------------- */
+=======
+#h1-socio{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: #2a2839;
+
+}
+
+#p-socio{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px;
+    color: #2a2839;
+
+}
+
+form {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10%;
+    border: 1px solid #333;
+    background-color: beige;
+    width: 25%;
+}
+
+input[type="text"],
+input[type="email"],
+fieldset{
+    width: 90%;
+    border: 1px solid #333;
+    box-sizing: border-box;
+    margin: 3%;
+} 
+
+label,
+input[type="date"], 
+input[type="radio"],
+select{
+    margin-left: 3%;
+}
+
+input[type="number"] {
+    border: 1px solid #333;
+    box-sizing: border-box;
+}
+
+input[type="submit"]{
+    font-size: 20px;
+    border: 1px solid black;
+    background-color:bisque;
+    font-weight: bold;
+    width: 20%;
+    margin-left: 40%;
+    margin-bottom: 5%;
+}
+
+/* -------------------------------------- */
+
+
+/* -------------------------------------- */
+/* ------------- DONACIONES ------------- */
+/* -------------------------------------- */
+
+#main-donaciones{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+#h1-donaciones{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: #2a2839;
+
+}
+
+#p-donaciones{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px;
+    color: #2a2839;
+
+}
+
+form {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10%;
+    border: 1px solid #333;
+    background-color: beige;
+    width: 25%;
+}
+
+input[type="text"],
+input[type="email"],
+fieldset{
+    width: 90%;
+    border: 1px solid #333;
+    box-sizing: border-box;
+    margin: 3%;
+} 
+
+label,
+input[type="date"], 
+input[type="radio"],
+select{
+    margin-left: 3%;
+}
+
+input[type="number"] {
+    border: 1px solid #333;
+    box-sizing: border-box;
+}
+
+input[type="submit"]{
+    font-size: 20px;
+    border: 1px solid black;
+    background-color:bisque;
+    font-weight: bold;
+    width: 20%;
+    margin-left: 40%;
+    margin-bottom: 5%;
+}
+
+/* -------------------------------------- */
+
+
+/* -------------------------------------- */
+/* ------------ QUIENES SOMOS ----------- */
+/* -------------------------------------- */
+
+#article-quienes-somos{
+    width:fit-content;
+    padding: 50px;
+    display: flex;
+}
+
+#h1-quienes-somos{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: #2a2839;
+}
+
+#p-quienes-somos{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    width:fit-content;
+    color: #2a2839;
+}
+
+#img-quienes-somos{
+    width: fit-content;
+}
+
+#article-que-nos-define{
+    width:fit-content;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#h2-que-nos-define{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: #2a2839;
+}
+
+#p-que-nos-define{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #2a2839;
+}
+
+#article-quienes-somos-final{
+    width:fit-content;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#img-quienes-somos-final{
+    border: 1px solid black;
+    width: fit-content;
+}
+
+#p-quienes-somos-final{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    width:fit-content;
+    margin-left: 50px;
+    color: #2a2839;
+}
+
+/* -------------------------------------- */
+
+
+/* -------------------------------------- */
+/* ------------- QUE HACEMOS ------------ */
+/* -------------------------------------- */
+
+#main-que-hacemos{
+    padding: 50px;
+}
+
+#h1-que-hacemos{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: #2a2839;
+}
+
+#article-que-hacemos{
+    display: flex;
+    height: 700px;
+    background-color: #cde2df;
+    border-radius: 20px;
+}
+
+#section-que-hacemos{
+    flex-direction: column;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: max-content;
+}
+
+#h3-que-hacemos{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    font-weight: lighter;
+    color: #2a2839;
+}
+
+#autor-noticia-que-hacemos{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: #2a2839;
+}
+
+#descripcion-noticia-que-hacemos{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    color: #2a2839;
+}
+
+#img-noticia-principal-que-hacemos{
+    width: 60%;
+    height: 100%;
+}
+
+#boton-leer-mas{
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 40px;
+    transition-duration: 0.4s;
+    background-color: #2a2839; 
+    color: #cde2df; 
+    border-radius: 20px;
+    position: absolute;
+    top: 80%;
+}
+
+#boton-leer-mas:hover{
+    color: white;
+}
+
+
+#h2-que-hacemos{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    color: #2a2839;
+}
+
+
+#section-cajitas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    justify-content: space-between;  
+}
+
+.cajita{
+    flex-direction: column;
+    width: 23%;
+    margin-block: 30px;
+    background-color: #cde2df;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.img-cajita{
+    border: 1px solid black;
+    width: 100%;
+}
+
+.h4-cajita{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2a2839;
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.p-cajita{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2a2839;
+    font-size: 15px;
+}
+
+/* -------------------------------------- */
+
+body{
+    background-color: #efe5da;
+}
+>>>>>>> 9a80d3edc06233bb6785f6466a2c5f302eac33f9
