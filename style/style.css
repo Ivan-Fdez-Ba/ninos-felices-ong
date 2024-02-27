@@ -144,27 +144,27 @@ footer{
 }
 
 #youtube-footer{
-    background-image: url("/images/youtube.svg");
+    background-image: url("/images/ytube.svg");
 }
 
 #youtube-footer:hover{
-    background-image: url('/images/youtube-negro.svg');
+    background-image: url('/images/ytube-negro.svg');
 }
 
 #instagram-footer{
-    background-image: url("/images/instagram.svg");
+    background-image: url("/images/insta.svg");
 }
 
 #instagram-footer:hover{
-    background-image: url("/images/instagram-negro.svg");
+    background-image: url("/images/insta-negro.svg");
 }
 
 #twitter-footer{
-    background-image: url("/images/twitter.svg");
+    background-image: url("/images/twit.svg");
 }
 
 #twitter-footer:hover{
-    background-image: url("/images/twitter-negro.svg");
+    background-image: url("/images/twit-negro.svg");
 }
 
 /* -------------------------------------- */
@@ -216,11 +216,13 @@ footer{
     font-size: 40px;
     font-weight: bold;
     text-decoration: none;
-    transition-duration: 0.4s;
+    transition-duration: 0.6s;
 }
 
 #contenedor-principal a:hover{
     background-color: #8C8484;
+    transform: scale(1.1);
+    
 }
 
 /* -------------------------------------- */
@@ -267,11 +269,12 @@ footer{
     color: #cde2df;
     font-size: 35px;
     text-decoration: none;
-    transition-duration: 0.4s;
+    transition-duration: 0.5s;
 }
  
 .boton-principal:hover{
     color: white;
+    transform: scale(1.1);
 }
 
 #grande{
@@ -447,6 +450,11 @@ footer{
     
     background-color: #cde2df;
     border-radius: 20px;
+    transition-duration: 0.5s;
+}
+
+#section-cajitas article:hover{
+    transform: scale(1.05);
 }
 
 #section-cajitas img{
@@ -677,7 +685,6 @@ footer{
 #div-cp-tel input[type="number"]{
     width: 47%;
 }
-
 
 #temas div{
     display: grid;
