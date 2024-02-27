@@ -412,7 +412,7 @@ footer{
 #article-que-hacemos a{
     margin: 0px;
     position: absolute;
-    top: 90%;
+    top: 70%;
    
     font-size: 40px;
     font-weight: bold;
@@ -453,6 +453,11 @@ footer{
     transition-duration: 0.5s;
 }
 
+#section-cajitas a{
+    color: #2a2839;
+    text-decoration: none;
+}
+
 #section-cajitas article:hover{
     transform: scale(1.05);
 }
@@ -472,6 +477,7 @@ footer{
     font-size: 15px;
     text-align: justify;
 }
+
 
 /* -------------------------------------- */
 
@@ -541,6 +547,7 @@ footer{
 
 .formulario p{
     border: 1px solid #2a2839;
+    border-radius: 5px;
     padding: 3px;
     margin-top: 23px;
     margin-bottom: 0;
@@ -553,6 +560,7 @@ footer{
 
     background-color: #efe5da;
     border: 1px solid #2a2839;
+    border-radius: 5px;
     font-size: 20px;
 }
 
@@ -657,6 +665,11 @@ footer{
 
 #newsletters-label{
     font-size: 20px;
+}
+
+#temas{
+    border: 1px solid #2a2839;
+    border-radius: 5px;
 }
 
 #nombre{
