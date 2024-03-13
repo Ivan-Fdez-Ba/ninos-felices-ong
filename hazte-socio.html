@@ -7,12 +7,12 @@
 </head>
 <body>
   <header>
-    <a href="index.html"> <img id="logo-header" src="images/logo.png" alt="logo"></a>
-    <nav id="nav-header">
-      <a class="item-nav-header" href="quienes-somos.html">QUIENES SOMOS</a>
-      <a class="item-nav-header" href="que-hacemos.html">QUÉ HACEMOS</a>
-      <a class="item-nav-header" href="donaciones.html">HAZ UNA DONACION</a>
-      <a class="item-nav-header" href="contacto.html">CONTACTO</a>
+    <a href="index.html"> <img class="logo" src="images/logo.png" alt="logo"></a>
+    <nav class="nav">
+      <a class="item-nav item-header" href="quienes-somos.html">QUIENES SOMOS</a>
+      <a class="item-nav item-header" href="que-hacemos.html">QUÉ HACEMOS</a>
+      <a class="item-nav item-header" href="donaciones.html">HAZ UNA DONACION</a>
+      <a class="item-nav item-header" href="contacto.html">CONTACTO</a>
     </nav>
     <a id="boton-header" href="hazte-socio.html">HAZTE SOCIO</a>
   </header>
@@ -48,10 +48,10 @@
           <option value="SRE">SRE</option>
         </select>
       </div>
-      <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" required>
+      <input type="text" name="apellidos" placeholder="Apellidos" required>
       <div id="div-cp-tel">
-        <input type="number" id="cp" name="cp" placeholder="Código Postal" required>
-        <input type="number" id="tel" name="tel" placeholder="Teléfono" required>
+        <input type="number" inputmode="numeric" name="cp" placeholder="Código Postal" required>
+        <input type="number" inputmode="numeric" name="tel" placeholder="Teléfono" required>
       </div>
     
       <fieldset id="temas">
@@ -85,7 +85,7 @@
       </fieldset>
    
       <div id="div-leido">
-        <input id="acepto-socio" type="radio" name="accepto" required>
+        <input id="acepto-socio" type="checkbox" name="accepto" required>
         <label id="acepto-socio-label" for="acepto-socio">He leído lo que hay que leer</label>
       </div>
 
@@ -102,15 +102,15 @@
 
   <footer>
     <figure>
-      <img id="logo-footer" src="images/logo.png" alt="logo">
+      <img class="logo" src="images/logo.png" alt="logo">
       <figcaption>©2023 by mi ong</figcaption>
     </figure>
 
-    <nav id="nav-footer">
-      <a class="item-nav-footer" href="quienes-somos.html">QUIENES SOMOS</a>
-      <a class="item-nav-footer" href="que-hacemos.html">QUÉ HACEMOS</a>
-      <a class="item-nav-footer" href="donaciones.html">HAZ UNA DONACION</a>
-      <a class="item-nav-footer" href="contacto.html">CONTACTO</a>
+    <nav class="nav">
+      <a class="item-nav item-footer" href="quienes-somos.html">QUIENES SOMOS</a>
+      <a class="item-nav item-footer" href="que-hacemos.html">QUÉ HACEMOS</a>
+      <a class="item-nav item-footer" href="donaciones.html">HAZ UNA DONACION</a>
+      <a class="item-nav item-footer" href="contacto.html">CONTACTO</a>
     </nav>
 
     <section id="section-rrss">
